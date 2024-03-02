@@ -1,3 +1,11 @@
+// Navigation Correction
+// Programmer: Rob Garner (rgarner011235@gmail.com)
+// Date: 1 Mar 2024
+// Purpose: to create a compas and proximity detector for the makerblock mbot robot using the feather sense
+// This code is adapted from a Feather Sense demo provided by Rianne Trujillo 
+// that is similar to demo code found on the Ardufruit Feather Sense website here: 
+// https://learn.adafruit.com/adafruit-feather-sense/overview?gad_source=1&gclid=CjwKCAiAloavBhBOEiwAbtAJO-r4-JhJr-W7oVUYgzrPXwQvS26WFnR3ia_3okDzJiHZqxSh7g3ctBoCPWEQAvD_BwE
+
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_LIS3MDL.h>
